@@ -1,11 +1,14 @@
+@import url(../css/reset.css);
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&display=swap');
+
 body, html {
 	background-color: #F8F9F9;
 	height: 100%;
+	font-family: 'Nunito', sans-serif;
 }
 
 h3, h4 {
-	font-family: 'Merriweather', serif;
-
+	font-family: 'Nunito', sans-serif;
 }
 
 .header {
@@ -23,10 +26,12 @@ h3, h4 {
 .item-title {
     font-size: 1.5rem;
     font-weight: 500;
-	font-family: 'Merriweather', serif;
+	font-family: 'Nunito', sans-serif;
 	height: 70px;
 }
-
+.text-muted{
+	user-select: none;
+}
 .details-wrapper {
 	display: flex;
 	justify-content: space-between;
@@ -38,7 +43,7 @@ h3, h4 {
 }
 
 .items {
-	font-family: 'Merriweather', serif;
+	font-family: 'Nunito', sans-serif;
 	background: #f2ede7;
 	border-radius: 8px;
 	width: 120px;
@@ -49,6 +54,7 @@ h3, h4 {
 }
 
 .items__control {
+	user-select: none;
 	width: 40px;
 	cursor: pointer;
 	transition: 0.2s ease-in;
@@ -61,6 +67,7 @@ h3, h4 {
 }
 
 .items__current {
+	user-select: none;
 	width: 40px;
 }
 
@@ -118,7 +125,9 @@ h3, h4 {
 	border-bottom: 1px solid #dee2e6;
 	margin-bottom: 15px;
 }
-
+.card-body {
+	font-family: 'Nunito', sans-serif;
+}
 .cart-item__img  {
 
 }
@@ -134,7 +143,7 @@ h3, h4 {
 }
 
 .cart-item__title {
-	font-family: 'Merriweather', serif;
+	font-family: 'Nunito', sans-serif;
 	font-size: 16px;
     line-height: 1.2;
 	font-weight: 600;
